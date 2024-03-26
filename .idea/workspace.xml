@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d702fe7d-d259-482f-97f6-88e0efaa2dff" name="Changes" comment="hello">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boat/templates/boat/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boat/templates/boat/boat_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/pricing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/holder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Project_Boat_selling.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project_Boat_selling.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boat/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/boat/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boat/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/boat/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +24,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -39,12 +50,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
     "Python.settings.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "django.template.preview.state": "SHOW_EDITOR",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/oc83/PycharmProjects/Project_Boat_selling",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,6 +68,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\oc83\PycharmProjects\Project_Boat_selling\static" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Project_Boat_selling" type="Python.DjangoServer" factoryName="Django server">
       <module name="Project_Boat_selling" />
@@ -103,7 +122,9 @@
       <workItem from="1711273669238" duration="4339000" />
       <workItem from="1711278051859" duration="1627000" />
       <workItem from="1711279689008" duration="68000" />
-      <workItem from="1711279775653" duration="218000" />
+      <workItem from="1711279775653" duration="300000" />
+      <workItem from="1711450039471" duration="2114000" />
+      <workItem from="1711452166889" duration="4302000" />
     </task>
     <task id="LOCAL-00001" summary="hello">
       <option name="closed" value="true" />
@@ -145,7 +166,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711279845683</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="hello">
+      <option name="closed" value="true" />
+      <created>1711279995744</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711279995744</updated>
+    </task>
+    <task id="LOCAL-00007" summary="hello">
+      <option name="closed" value="true" />
+      <created>1711280015660</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711280015660</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
