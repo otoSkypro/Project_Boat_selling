@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d702fe7d-d259-482f-97f6-88e0efaa2dff" name="Changes" comment="hello">
-      <change afterPath="$PROJECT_DIR$/boat/templates/boat/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boat/templates/boat/boat_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/pricing.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/holder.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/popper.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Project_Boat_selling.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project_Boat_selling.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boat/migrations/0003_boat_price.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boat/templates/boat/boat_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boat/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/boat/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boat/templates/boat/boat_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/boat/templates/boat/boat_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boat/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/boat/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boat/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/boat/views.py" afterDir="false" />
     </list>
@@ -47,27 +45,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.settings.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "django.template.preview.state": "SHOW_EDITOR",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/oc83/PycharmProjects/Project_Boat_selling",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.settings.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/oc83/PycharmProjects/Project_Boat_selling&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\oc83\PycharmProjects\Project_Boat_selling\static" />
@@ -124,7 +122,9 @@
       <workItem from="1711279689008" duration="68000" />
       <workItem from="1711279775653" duration="300000" />
       <workItem from="1711450039471" duration="2114000" />
-      <workItem from="1711452166889" duration="4302000" />
+      <workItem from="1711452166889" duration="10763000" />
+      <workItem from="1711614621901" duration="30000" />
+      <workItem from="1711614659270" duration="634000" />
     </task>
     <task id="LOCAL-00001" summary="hello">
       <option name="closed" value="true" />
@@ -182,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711280015660</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="hello">
+      <option name="closed" value="true" />
+      <created>1711456589832</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711456589832</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
